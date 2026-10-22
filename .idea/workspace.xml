@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4df23c30-92e0-4e05-a8cc-4cebd1ab0e88" name="Changes" comment="feat(Java): Implementación del taller de video juego RPG">
-      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/arena/Guerrero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/arena/ICombatiente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/arena/Inventario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/arena/Mago.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/arena/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/arena/Personaje.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/arena/Pocion.java" afterDir="false" />
+    <list default="true" id="4df23c30-92e0-4e05-a8cc-4cebd1ab0e88" name="Changes" comment="feat(Java): Añadir taller relaciones entre Clases en Java">
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/relaciones/AplicacionArenaRPG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/relaciones/Arma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/relaciones/CorazonRPG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/relaciones/Escuadron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/relaciones/Gremio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/relaciones/Personaje.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AplicacionArenaRPG.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -72,11 +71,29 @@
       <option name="project" value="LOCAL" />
       <updated>1792611698170</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat(Java): Añadir taller practico integrador">
+      <option name="closed" value="true" />
+      <created>1792612579332</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1792612579332</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat(Java): Añadir taller practico integrador">
+      <option name="closed" value="true" />
+      <created>1792612624321</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1792612624321</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(Java): Implementación del taller de video juego RPG" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(Java): Implementación del taller de video juego RPG" />
+    <MESSAGE value="feat(Java): Añadir taller practico integrador" />
+    <MESSAGE value="feat(Java): Añadir taller relaciones entre Clases en Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(Java): Añadir taller relaciones entre Clases en Java" />
   </component>
 </project>
