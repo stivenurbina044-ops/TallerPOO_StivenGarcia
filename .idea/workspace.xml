@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4df23c30-92e0-4e05-a8cc-4cebd1ab0e88" name="Changes" comment="feat(Java): Añadir taller relaciones entre Clases en Java">
-      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/relaciones/AplicacionArenaRPG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/relaciones/Arma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/relaciones/CorazonRPG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/relaciones/Escuadron.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/relaciones/Gremio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/relaciones/Personaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/integrador/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/integrador/model/PerfilJugador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/integrador/model/Personaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/integrador/model/engine/Bestiario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/integrador/model/engine/CatalogoTienda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/integrador/model/enums/EstadoPersonaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/integrador/model/enums/RaridadItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/integrador/model/enums/TipoPersonaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/integrador/model/exception/CapacidadExcedidaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/integrador/model/exception/JuegoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/integrador/model/exception/SinManaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/co/edu/puj/rpg/integrador/model/exception/VidaInsuficienteException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,21 +46,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AplicacionArenaRPG.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/home/camper/Documentos/SimuladorBatalla_RPG/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AplicacionArenaRPG.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/camper/Documentos/SimuladorBatalla_RPG/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="co.edu.puj.rpg.integrador.Main" />
+      <module name="SimuladorBatalla_RPG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.edu.puj.rpg.integrador.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
